@@ -4,5 +4,16 @@
     position: relative; /* Necesario para el posicionamiento de los divs dentro */
     overflow: hidden; /* Opcional: evita que los elementos se salgan de la pantalla */
     background-color: rgb(255, 0, 0);
-    color: rgb(221, 38, 38);
+    color: rgb(233, 31, 31);
   }
+
+  h1 {
+    position: absolute; /* Lo coloca de forma absoluta dentro del contenedor */
+    top: 40%; /* Coloca el h1 a una altura del 10% del contenedor (ajustable) */
+    left: 50%; /* Lo coloca en el centro horizontal */
+    transform: translateX(-50%); /* Ajusta el h1 para que esté perfectamente centrado en el eje X */
+    z-index: 10; /* Asegura que el h1 esté encima de los otros elementos */
+    color: rgb(255, 255, 255); /* Color del texto */
+    font-size: 6rem; /* Tamaño del texto */
+    font-family: "Dancing Script", cursive;
+}

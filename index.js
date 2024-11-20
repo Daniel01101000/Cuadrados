@@ -1,7 +1,7 @@
 let CWidth = window.innerWidth;
 let CHeight = window.innerHeight;
 
-for (let i = 0; i < 400; i++) {
+for (let i = 0; i < 300; i++) {
 
     let numRandom = Math.floor(Math.random() * 4) + 1;
 
@@ -9,19 +9,19 @@ for (let i = 0; i < 400; i++) {
 
 switch (numRandom) {
     case 1:
-        color = "rgb(255, 255, 255)"; // Blanco
+        color = "rgb(233, 31, 31)";
         break;
     case 2:
-        color = "rgb(221, 38, 38)"; // Crema
+        color = "rgb(221, 38, 38)"; 
         break;
     case 3:
-        color = "rgb(255, 209, 253)"; // Rosa
+        color = "rgb(243, 63, 63)";
         break;
     case 4:
-        color = "rgb(255, 0, 0)"; // Rojo
+        color = "rgb(255, 0, 0)"; 
         break;
     default:
-        color = "rgb(0, 0, 0)"; // Color por defecto si no hay coincidencia (opcional)
+        color = "rgb(0, 0, 0)"; 
         break;
 }
 
