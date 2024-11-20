@@ -1,0 +1,7 @@
+#container {
+    width: 100vw; /* 100% del ancho de la ventana */
+    height: 100vh; /* 100% del alto de la ventana */
+    position: relative; /* Necesario para el posicionamiento de los divs dentro */
+    overflow: hidden; /* Opcional: evita que los elementos se salgan de la pantalla */
+    background-color: black;
+  }
